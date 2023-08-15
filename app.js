@@ -5,7 +5,7 @@ const api ={
 
 const searchBox = document.querySelector('.search-box');
 
-searchBox.addEventListener("keypress" , setQuery)
+searchBox.addEventListener('keypress' , setQuery)
 function setQuery(e){
     if(e.keyCode == 13){
         getResults(searchBox.value)
