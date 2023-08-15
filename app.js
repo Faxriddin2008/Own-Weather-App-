@@ -29,7 +29,7 @@ function displayResults(weather){
     let date = document.querySelector('.location .date');
     date.innerHTML = dateBuilder(now);
 
-    let temp = document.querySelector('.temp')
+    let temp = document.querySelector(".temp")
     temp.innerHTML = `${Math.round(weather.main.temp)}`
 
     let weatherEl = document.querySelector(".weather");
